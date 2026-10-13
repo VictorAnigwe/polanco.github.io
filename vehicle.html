@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore vehicle details, features and pricing at Polanco Exotic Cars.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Vehicle details — Polanco Exotic Cars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="templatemo-623-novapay-style.css">
+</head>
+<body class="vehicle-page">
+  <div class="topline detail-topline">
+    <span>Polanco Exotic Cars · Lekki, Lagos, Nigeria</span>
+    <a href="index.html#contact">Talk to our team <span aria-hidden="true">↗</span></a>
+  </div>
+  <header class="detail-header">
+    <a class="brand" href="index.html" aria-label="Polanco Exotic Cars home">
+      <span class="brand-lockup">
+        <img class="brand-wordmark" src="polanco-logo.png" alt="Polanco Exotic Cars">
+        <span class="brand-subline">EXOTIC CARS</span>
+      </span>
+    </a>
+    <div class="detail-header-actions">
+      <a class="detail-back" href="index.html#featured"><span aria-hidden="true">←</span> Back to collection</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.6A8.5 8.5 0 0 1 8.4 3.8 8.5 8.5 0 1 0 20.2 15.6Z"/></svg>
+        <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </div>
+  </header>
+  <main class="vehicle-main" id="vehiclePage"></main>
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand brand-footer" href="index.html" aria-label="Polanco Exotic Cars home"><span class="brand-lockup"><img class="brand-wordmark" src="polanco-logo.png" alt="Polanco Exotic Cars"><span class="brand-subline">EXOTIC CARS</span></span></a><p>Find the car. Find your road.</p></div>
+      <div class="footer-links"><a href="index.html#featured">Featured cars</a><a href="index.html#about">Why Polanco Exotic</a><a href="index.html#services">Our services</a><a href="index.html#contact">Contact</a></div>
+      <div class="footer-address"><strong>Visit Polanco Exotic Cars</strong><span>Plot 2, KM 33 Lekki-Epe Expressway<br>Lekki Phase 2, Lagos, Nigeria</span><a href="tel:+2348160155395">+234 816 015 5395</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Polanco Exotic Cars. All roads welcome.</span><span><a href="https://templatemo.com" target="_blank" rel="noopener noreferrer">Viko Designs</a>.</span><a href="index.html#top">Back to top ↑</a></div>
+  </footer>
+  <dialog class="drive-dialog" id="vehicleDriveDialog" aria-labelledby="vehicleDialogTitle">
+    <button class="dialog-close" id="vehicleDialogClose" type="button" aria-label="Close dialog">×</button>
+    <p class="eyebrow"><span></span> Get behind the wheel</p>
+    <h2 id="vehicleDialogTitle">Vehicle enquiry</h2>
+    <p class="dialog-car" id="vehicleDialogCar"></p>
+    <form id="vehicleDriveForm">
+      <label>Your name<input name="name" autocomplete="name" required placeholder="Alex Morgan"></label>
+      <label>Email or phone<input name="contact" required placeholder="How should we reach you?"></label>
+      <button class="button button-red form-submit" type="submit">Send enquiry <span aria-hidden="true">→</span></button>
+      <p class="form-message" id="vehicleDriveMessage" aria-live="polite"></p>
+    </form>
+  </dialog>
+  <script src="templatemo-623-novapay-theme.js"></script>
+  <script src="templatemo-623-novapay-vehicles.js"></script>
+  <script src="templatemo-623-novapay-vehicle-page.js"></script>
+</body>
+</html>
